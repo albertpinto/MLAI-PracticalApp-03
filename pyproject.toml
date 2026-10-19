@@ -1,0 +1,17 @@
+[project]
+name = "practicalapp-03"
+version = "0.1.0"
+description = "Comparing classifiers on bank telemarketing data (term deposit subscription)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scipy",
+    "scikit-learn>=1.4",
+    "ipykernel",
+    "nbformat",
+    "nbconvert",
+]
